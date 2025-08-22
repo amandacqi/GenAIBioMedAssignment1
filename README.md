@@ -37,12 +37,16 @@ is finish the TODO modules in the current code.
 Please **Don't change the other parts, especially the seed and the hyperparameters we give notes**
 
 <h2>Training</h2>
+Following the command below to finetune the model: 
 
 ```ruby
 python train.py
 ```
 
 <h3>Design</h3>
+
+To achieve design, we'll provide the first 64 tokens as the prompt to the model and then the finetuned model will generate a full protein
+sequence autoregressively conditioned on the provided prompt. To achieve design, just follow the command below:
 
 ```ruby
 python inference.py
