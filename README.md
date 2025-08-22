@@ -43,6 +43,7 @@ python train.py
 ```
 
 <h3>Design</h3>
+
 ```ruby
 python inference.py
 ```
