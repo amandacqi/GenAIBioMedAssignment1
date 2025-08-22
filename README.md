@@ -34,9 +34,9 @@ tar -xvzf progen2-small.tar.gz
 
 We already provided the full training pipeline. What you need to do 
 is finish the TODO modules in the current code. 
-Please **Don't change the other parts, especially the seed and the hyperparameters we give notes**
+Please **Don't change the other parts, especially the seed and the hyperparameters we give notes for.**
 
-<h2>Training</h2>
+<h3>Training</h3>
 Following the command below to finetune the model: 
 
 ```ruby
