@@ -47,3 +47,7 @@ python train.py
 ```ruby
 python inference.py
 ```
+
+Then you'll get a set of green fluorescent green protein candidates.
+
+Next, please check the assignment doc for evaluation.
