@@ -6,7 +6,7 @@ ProGen2 is a foundation model for protein design. For detailed information, plea
 
 In this assignment, you'll learn how to finetune the pretrained ProGen2 model on a specific protein family, e.g., green fluorescent protein.
 
-![image](./GFP.png)
+![image](pictures/GFP.png)
 
 
 <h2>Environment</h2>
