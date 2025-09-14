@@ -27,7 +27,7 @@ pip install transformers==4.49.0
 
 If you choose to use anaconda, run the following command:
 
-```markdown
+```ruby
 conda create -n progen python=3.9.16 -y 
 conda activate progen 
 pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cu128
@@ -39,7 +39,7 @@ pip install transformers==4.49.0
 To prepare the pretrained model for subsequence finetuning process, 
 please run the following command:
 
-```markdown
+```ruby
 mkdir pretrained_model
 mkdir models
 mkdir pretrained_model/progen2-small
