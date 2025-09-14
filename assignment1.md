@@ -1,4 +1,4 @@
-# Assignment 1: Finetuning ProGen2 on Green Fluorescent Protein Design
+# Assignment 1: Finetuning ProGen2 on Green Fluorescent Protein
 
 ProGen2 is a foundation model for protein design. For detailed information, please check [paper](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00272-7)
 
