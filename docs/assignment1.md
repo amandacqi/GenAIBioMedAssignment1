@@ -90,15 +90,15 @@ To run the evaluation, follow the instruction below:
 
 (2)	Input your designed sequence to the protein field as below:
 
-![image](pictures/Picture1.png)
+![image](../pictures/Picture1.png)
 
 (3) click continue and preview job, and then click Confirm and submit job:
 
-![image](pictures/Picture2.png)
+![image](../pictures/Picture2.png)
 
 (4) After waiting some time, you’ll have the results:
 
-![image](pictures/Picture3.png)
+![image](../pictures/Picture3.png)
 
 (5) Among all the designed sequences, rank them according to their pLDDT scores, which can be calculated based on the folded structure
 
