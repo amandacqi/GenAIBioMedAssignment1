@@ -6,7 +6,7 @@ In this assignment, you'll learn how to finetune the pretrained ProGen2 model on
 Then you'll need to apply AlphaFold3 metrics to select good candidates which are highly potential to 
 have the desired function from your finetuned model.
 
-![image](pictures/GFP.png)
+![image](../pictures/GFP.png)
 
 
 ## Environment Setup
