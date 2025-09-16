@@ -1,5 +1,5 @@
 site_name: CMU 11781/02741 Generative AI for Biomedicine 2025 Fall Assignments
-site_url: https://https://genaibiomed.github.io/GenAIBiomedAssignment1
+site_url: https://https://genaibiomed.github.io/GenAIBioMedAssignment1
 theme:
   name: material
 markdown_extensions:
