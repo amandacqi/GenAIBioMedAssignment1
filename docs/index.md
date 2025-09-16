@@ -6,7 +6,7 @@ In this assignment, you'll learn how to finetune the pretrained ProGen2 model on
 Then you'll need to apply AlphaFold3 metrics to select good candidates which are highly potential to 
 have the desired function from your finetuned model.
 
-![image](../pictures/GFP.png)
+![image](images/GFP.png)
 
 
 ## Environment Setup
@@ -18,7 +18,7 @@ The starting code base is provided in [GenAIBioMed/Assignment1.git](https://gith
 The environments to finetune the model and generate proteins are provided below. 
 Please make sure your python version is 3.9+.
 
-```ruby
+```bash
 python3 -m venv progen 
 source progen/bin/activate 
 pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cu128
@@ -27,7 +27,7 @@ pip install transformers==4.49.0
 
 If you choose to use anaconda, run the following command:
 
-```ruby
+```bash
 conda create -n progen python=3.9.16 -y 
 conda activate progen 
 pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cu128
@@ -39,7 +39,7 @@ pip install transformers==4.49.0
 To prepare the pretrained model for subsequence finetuning process, 
 please run the following command:
 
-```ruby
+```bash
 mkdir pretrained_model
 mkdir models
 mkdir pretrained_model/progen2-small
@@ -57,7 +57,7 @@ please refer to the hints. Please **Don't change the other parts, especially the
 
 After filling all the core code lines, please follow the command below to finetune the model: 
 
-```ruby
+```bash
 python train.py
 ```
 
@@ -67,7 +67,7 @@ After finetuning the model, we use the best checkpoints from your finetuning pro
 To achieve this goal, we'll provide the first 64 tokens as the prompt to the model and then the finetuned model will generate a full protein
 sequence autoregressively conditioned on the provided prompt. To achieve design, just follow the command below:
 
-```ruby
+```bash
 python inference.py
 ```
 
@@ -90,15 +90,15 @@ To run the evaluation, follow the instruction below:
 
 (2)	Input your designed sequence to the protein field as below:
 
-![image](../pictures/Picture1.png)
+![image](images/Picture1.png)
 
 (3) click continue and preview job, and then click Confirm and submit job:
 
-![image](../pictures/Picture2.png)
+![image](images/Picture2.png)
 
 (4) After waiting some time, you’ll have the results:
 
-![image](../pictures/Picture3.png)
+![image](images/Picture3.png)
 
 (5) Among all the designed sequences, rank them according to their pLDDT scores, which can be calculated based on the folded structure
 
