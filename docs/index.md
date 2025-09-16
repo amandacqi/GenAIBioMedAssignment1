@@ -111,4 +111,4 @@ Please compress all the results into a zip file, and the results should include:
 
 (1)	**The fully filled code**. Note don’t submit the data but only submit the python files
 
-(2)	**A PDF file for the top 5 candidate report**. Please include the detailed information about your top-5 candiates, including the Alphafold3 visualization, sequences, pTM score, pLDDT score
+(2)	**A PDF file for the top 5 candidate report**. Please include the detailed information about your top-5 candiates, including the Alphafold3 visualization, sequences, pTM score, pLDDT score, and provide an explanation of these metrics.
