@@ -25,7 +25,9 @@ pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https
 pip install transformers==4.49.0
 ```
 
-If you choose to use anaconda, run the following command:
+If you choose to use anaconda, run the following command **[Preferred method for PSC]** 
+
+_On PSC_ : you can load conda through `module load anaconda3/2024.10-1`
 
 ```bash
 conda create -n progen python=3.9.16 -y 
